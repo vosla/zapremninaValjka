@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zapremnina valjka</title>
+</head>
+
+<body>
+
+</body>
+
+
+<script>
+
+    function vrednost_poluprecnika(r) {
+        return r * r * 3.14;
+
+    }
+
+    function vrednost_visine(r, h) {
+        return 2 * r * 3, 14 * h;
+    }
+
+    function zapremnina_valjka(r, h) {
+        return 2 * vrednost_poluprecnika(r) + vrednost_visine(r, h);
+    }
+
+    var x = prompt("Unesite poluprecnik valjka (r):");
+
+
+
+    var y = prompt("Unesite visinu valjka (h):");
+
+    alert("Zapremnina valjka je " + vrednost_poluprecnika(x, y));
+
+
+
+</script>
+
+</html>
